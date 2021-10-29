@@ -9,8 +9,8 @@ function App() {
       <div className="App">
         <Link to="/">English Version</Link>
         <Link to="/ar">Arabic  Version</Link>
-          <Route exact path="/" component={BrandIdentityQuestionnaire} />
-          <Route path="/ar" component={BrandIdentityQuestionnaireAR} />
+        <Route exact path="/" component={BrandIdentityQuestionnaire} />
+        <Route path="/ar" component={BrandIdentityQuestionnaireAR} />
       </div>
     </Router>
   );

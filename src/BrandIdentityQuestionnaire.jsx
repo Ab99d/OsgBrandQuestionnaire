@@ -71,7 +71,8 @@ const brandIdentityQuestionnaire = () => {
 
                         <div className="col-lg-8 mx-auto">
                             <label htmlFor="Summary">Vision and mission. summarize each one in few words or short phrases</label>
-                            <textarea className="text-left w-100" type="text" id="Summary" name="Summary" required/>
+                            <input type="text" name="Vision" id="" placeholder="VISION:"/>
+                            <input type="text" name="mission" id="" placeholder="MISSION:"/>
                         </div>
 
                         <div className="col-lg-8 mx-auto">
@@ -90,7 +91,7 @@ const brandIdentityQuestionnaire = () => {
                         </div>
 
                         <div className="col-lg-8 mx-auto">
-                            <label htmlFor="competitors">Competitors <br /> Who are your three main primary competitors? (Please include their URLs).</label>
+                            <label htmlFor="competitors">Competitors <br /> Who are your three main primary competitors? <br /> (Please include their URLs).</label>
                             <ol className="w-100">
                                 <li><input type="text" name='Competitors' required/></li>
                                 <li><input type="text" name='Competitors'/></li>
@@ -99,7 +100,7 @@ const brandIdentityQuestionnaire = () => {
                         </div>
 
                         <div className="col-lg-8 mx-auto">
-                            <label htmlFor="isYourProductDifferent">Is there something that makes you/your product/service, different to them</label>
+                            <label htmlFor="isYourProductDifferent">Is there something that makes you/your product/service, <br /> different to them</label>
                             <textarea className="text-left w-100" type="text" id="isYourProductDifferent" name="isYourProductDifferent" required/>
                         </div>
 
@@ -133,6 +134,12 @@ const brandIdentityQuestionnaire = () => {
                                     <div className="custom-control custom-checkbox mr-sm-2">
                                         <input type="checkbox" className="custom-control-input" id="Complex" name="Complex"/>
                                         <label className="custom-control-label text-primary" htmlFor="Complex">Complex</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Safe" name="Safe"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Safe">Safe</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
@@ -213,12 +220,7 @@ const brandIdentityQuestionnaire = () => {
                                         <label className="custom-control-label text-primary" htmlFor="Extreme">Extreme</label>
                                     </div>
                                 </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Safe" name="Safe"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Safe">Safe</label>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 

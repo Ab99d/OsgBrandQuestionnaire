@@ -439,6 +439,35 @@ input[type=checkbox]:checked:after {
         width: 100% !important;
     }
 }
+/* 
+.vision, .mission {
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.vision::before {
+    content: "VISION: ";
+    width: 10px;
+    height: 10px;
+    color: #f8931f;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+}
+
+.mission::before {
+    content: "MISSION: ";
+    width: 10px;
+    height: 10px;
+    color: #f8931f;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+} */
 
 /* style the arabic page */
 
@@ -459,7 +488,6 @@ input[type=checkbox]:checked:after {
     margin-right: 0;
 }
 .main-parent-AR .questions .container * {
-    
     font-family: Almarai;
 }
 .main-parent-AR .brand-name-tagline{
@@ -489,6 +517,35 @@ input[type=checkbox]:checked:after {
     position: absolute;
     left: auto !important;
     margin-left: 0.5rem;
+}
+
+.vision-ar, .mission-ar {
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.vision-ar::after {
+    content: ":الرؤية";
+    width: 10px;
+    height: 10px;
+    color: #f8931f;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
+}
+
+.mission-ar::after {
+    content: ":الرسالة";
+    width: 10px;
+    height: 10px;
+    color: #f8931f;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
 }
 
 @media (max-width: 580px) {

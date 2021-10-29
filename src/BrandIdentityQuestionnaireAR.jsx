@@ -31,7 +31,7 @@ const BrandIdentityQuestionnaireAR = () => {
                                 <label htmlFor="brandName">وصف الشركة/المنظمة <br /><span id='en-lang'>اسم الشركة :</span></label>
                                 <input type="text" id="brandName" name="brandName" className="text-center w-100" required/>
                                 <div className="tag-line">
-                                    <label htmlFor="tagline">شعار <br /> <span>اذا كان يوجد :</span></label>
+                                    <label htmlFor="tagline">شعار <br /> <span>(اذا كان يوجد) :</span></label>
                                     <textarea className="w-100" name="tagline" id="tagline" cols="30" rows="3" required></textarea>
                                 </div>
                             </div>
@@ -71,7 +71,8 @@ const BrandIdentityQuestionnaireAR = () => {
 
                         <div className="col-lg-8 mx-auto">
                             <label htmlFor="Summary">الرؤية والرسالة. لخص كل واحد في كلمات قليلة أو عبارات قصيرة</label>
-                            <textarea className="text-right w-100" type="text" id="Summary" name="Summary" required/>
+                            <input className="text-right" type="text" name="Vision" id="" placeholder=":الرؤية"/>
+                            <input className="text-right" type="text" name="mission" id="" placeholder=":الرسالة"/>
                         </div>
 
                         <div className="col-lg-8 mx-auto">
@@ -107,29 +108,11 @@ const BrandIdentityQuestionnaireAR = () => {
                         <div className="col-lg-11 mx-auto checkboxes-container">
                             <label htmlFor="information-about-company">بناءً على المعلومات السابقة، اختر 4/5 سمات
                             تناسب شركتك</label>
-                            <div className="container d-flex flex-row flex-wrap mt-5 checkboxes-container" required>
+                            <div className="container d-flex flex-row-reverse flex-wrap mt-5 checkboxes-container" required>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Safe" name="Safe"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Safe">آمن</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Monochrome" name="Monochrome"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Monochrome">أحادي اللون</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Complex" name="Complex"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Complex">مركب</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Simple" name="Simple"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Simple">بسيط</label>
+                                        <input type="checkbox" className="custom-control-input" id="Masculine" name="Masculine"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Masculine">خدمة للرجال</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
@@ -140,32 +123,20 @@ const BrandIdentityQuestionnaireAR = () => {
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Masculine" name="Masculine"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Masculine">خدمة للرجال</label>
+                                        <input type="checkbox" className="custom-control-input" id="Simple" name="Simple"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Simple">بسيط</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Professional" name="Professional"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Professional">احترافي</label>
+                                        <input type="checkbox" className="custom-control-input" id="Complex" name="Complex"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Complex">مركب</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Casual" name="Casual"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Casual">غير رسمي</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Classic" name="Classic"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Classic">كلاسيكي</label>
-                                    </div>
-                                </div>
-                                <div className="col-auto my-1">
-                                    <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Modern" name="Modern"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Modern">عصري</label>
+                                        <input type="checkbox" className="custom-control-input" id="Monochrome" name="Monochrome"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Monochrome">أحادي اللون</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
@@ -176,32 +147,32 @@ const BrandIdentityQuestionnaireAR = () => {
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Extremely" name="Extremely"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Extremely">مبالغ فيه</label>
+                                        <input type="checkbox" className="custom-control-input" id="Modern" name="Modern"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Modern">عصري</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Elegant" name="Elegant"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Elegant">أنيق</label>
+                                        <input type="checkbox" className="custom-control-input" id="Classic" name="Classic"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Classic">كلاسيكي</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Sport" name="Sport"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Sport">رياضي</label>
+                                        <input type="checkbox" className="custom-control-input" id="Casual" name="Casual"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Casual">غير رسمي</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Luxury" name="Luxury"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Luxury">رفاهية</label>
+                                        <input type="checkbox" className="custom-control-input" id="Professional" name="Professional"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Professional">احترافي</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Necessary" name="Necessary"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Necessary">ضروري</label>
+                                        <input type="checkbox" className="custom-control-input" id="Fun" name="Fun"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Fun">مرح</label>
                                     </div>
                                 </div>
                                 <div className="col-auto my-1">
@@ -212,16 +183,46 @@ const BrandIdentityQuestionnaireAR = () => {
                                 </div>
                                 <div className="col-auto my-1">
                                     <div className="custom-control custom-checkbox mr-sm-2">
-                                        <input type="checkbox" className="custom-control-input" id="Fun" name="Fun"/>
-                                        <label className="custom-control-label text-primary" htmlFor="Fun">مرح</label>
+                                        <input type="checkbox" className="custom-control-input" id="Necessary" name="Necessary"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Necessary">ضروري</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Luxury" name="Luxury"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Luxury">رفاهية</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Sport" name="Sport"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Sport">رياضي</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Elegant" name="Elegant"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Elegant">أنيق</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Safe" name="Safe"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Safe">آمن</label>
+                                    </div>
+                                </div>
+                                <div className="col-auto my-1">
+                                    <div className="custom-control custom-checkbox mr-sm-2">
+                                        <input type="checkbox" className="custom-control-input" id="Extremely" name="Extremely"/>
+                                        <label className="custom-control-label text-primary" htmlFor="Extremely">مبالغ فيه</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-8 mx-auto">
-                            <label htmlFor="logotype-client-like">مراجع <br /> هل هناك أي شعار / علامة تجارية لها شعار مع
-                            النمط / المظهر الذي يعجبك؟ (يرجى تضمين الروابط أو الصور))
+                            <label htmlFor="logotype-client-like">هل هناك أي شعار / علامة تجارية لها شعار مع
+                            النمط / المظهر الذي يعجبك؟ <br /> (يرجى تضمين الروابط أو الصور)
                             </label>
                             <textarea className="text-right w-100" type="text" id="logotype-client-like" name="logotype-client-like" required/>
                             <div className="input-group mb-3 mt-2">
