@@ -41,7 +41,7 @@ div .navbar-brand img {
 .brand-name-tagline {
     font-weight: 900;
     color: #f8931f;
-    font-family: Roboto;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ div .navbar-brand img {
     line-height: 31px;
     border: none;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent;
     resize: none;
     width: 280px;
@@ -112,7 +112,7 @@ div .navbar-brand img {
 
 .questions .container label {
     color: #f8931f;
-    font-family: Roboto;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
@@ -125,7 +125,7 @@ div .navbar-brand img {
     line-height: 31px;
     border: none;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent;
     resize: none;
     width: 70%;
@@ -150,7 +150,7 @@ div .navbar-brand img {
 }
 
 .logo-type {
-    font-family: Roboto;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: #f8931f;
 }
@@ -472,7 +472,7 @@ input[type=checkbox]:checked:after {
 /* style the arabic page */
 
 .main-parent-AR form * {
-    font-family: Almarai;
+    font-family: Almarai, Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-parent-AR .flip-img {
     direction: rtl;
@@ -488,7 +488,7 @@ input[type=checkbox]:checked:after {
     margin-right: 0;
 }
 .main-parent-AR .questions .container * {
-    font-family: Almarai;
+    font-family: Almarai, Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-parent-AR .brand-name-tagline{
     left: -37px;
