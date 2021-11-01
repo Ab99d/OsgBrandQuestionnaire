@@ -78,6 +78,10 @@ const BrandIdentityQuestionnaireAR = () => {
                         <div className="col-lg-8 mx-auto">
                             <label htmlFor="previousLogotype">.هل لديك شعار / علامة تجارية سابقة؟ (أرفق صورة أو رابط)</label>
                             <textarea className="text-right w-100" type="text" id="previousLogotype" name="previousLogotype" required/>
+                            <div className="custom-file">
+                                <input type="file" className="custom-file-input" id="inputGroupFile01"/>
+                                <label className="custom-file-label " htmlFor="inputGroupFile01">رفع ملف</label>
+                            </div>
                         </div>
 
                         <div className="col-lg-8 mx-auto">

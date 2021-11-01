@@ -78,6 +78,10 @@ const brandIdentityQuestionnaire = () => {
                         <div className="col-lg-8 mx-auto">
                             <label htmlFor="previousLogotype">Do you have a previous Logotype/branding? (attach image or link)</label>
                             <textarea className="text-left w-100" type="text" id="previousLogotype" name="previousLogotype" required/>
+                            <div className="custom-file">
+                                    <input type="file" className="custom-file-input" id="inputGroupFile01"/>
+                                    <label className="custom-file-label" htmlFor="inputGroupFile01">Choose file</label>
+                            </div>
                         </div>
 
                         <div className="col-lg-8 mx-auto">
