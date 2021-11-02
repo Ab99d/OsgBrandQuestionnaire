@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Roboto+Condensed:wght@700&display=swap');
 
-body {
+.bg {
     background: url(../images/bg.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+}
+
+Link {
+    color: red;
 }
 
 .hero {
@@ -547,6 +552,28 @@ input[type=checkbox]:checked:after {
     bottom: 50px;
 }
 
+.brand-footer {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.brand-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-footer .container p {
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand-footer .container .social-icon i {
+    font-size: 35px;
+    margin-left: 1rem;
+}
+
 @media (max-width: 580px) {
     .main-parent-AR .questions .container div label {
         text-align: end !important;
@@ -562,6 +589,13 @@ input[type=checkbox]:checked:after {
     .main-parent-AR .brand-name-tagline {
         left: 101px;
         top: -20px;
+    }
+    .brand-footer .container {
+        flex-direction: column;
+        height: 400px;
+    }
+    .brand-footer .container div {
+        margin: 1rem;
     }
 }
 
