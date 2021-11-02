@@ -12,6 +12,34 @@ Link {
     color: red;
 }
 
+nav {
+    min-height: 85px;
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav li a {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-nav li {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 444px) {
+    .container-fluid a {
+        width: 75%;
+    }
+}
+
+@media (max-width: 350px) {
+    .container-fluid a {
+        width: 60%;
+    }
+}
+
 .hero {
     margin-bottom: 15rem;
 }

@@ -22,26 +22,26 @@ const BrandIdentityQuestionnaireAR = () => {
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href>Home</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" aria-current="page" href>Home</a>
                             </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href>About Us</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" href>About Us</a>
                             </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href>Our Services</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" href>Our Services</a>
                             </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href>Pricing Plans</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" href>Pricing Plans</a>
                             </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href>FAQs</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" href>FAQs</a>
                             </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href>Contact</a>
+                            <li className="nav-item mx-2">
+                                <a className="nav-link" href>Contact</a>
                             </li>
                         </ul>
-                        <Link className="btn btn-primary" to="/">Englesh</Link>
+                        <Link className="btn btn-primary" to="/">English</Link>
                         </div>
                     </div>
                 </div>
@@ -363,10 +363,10 @@ const BrandIdentityQuestionnaireAR = () => {
                         <p>Copyright © 2021. All Rights Reserved</p>
                     </div>
                     <div className="social-icon">
-                        <i className="fab fa-instagram-square"></i>
-                        <i className="fab fa-facebook-square"></i>
-                        <i className="fab fa-twitter-square"></i>
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-facebook"></i>
+                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </div>
                 </div>
             </footer>
